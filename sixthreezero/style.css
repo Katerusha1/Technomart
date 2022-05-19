@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cuprum", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  height: 100%;
+}
+/* .body {
+  font-family: "Cuprum", sans-serif;
+} */
+.header {
+  height: 320px;
+
+  background-color: #f3f7f8;
+}
+
+.page_heading {
+  height: 42px;
+  background-color: #293449;
+}
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.left_nav {
+  display: flex;
+  /* align-items: center; */
+}
+.logo {
+  width: 220px;
+  height: 47px;
+}
+.searh {
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.icon_search {
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+  fill: #888888;
+}
+.icon {
+  display: inline-block;
+}
+
+.icon_search:hover svg {
+  fill: #ffffff;
+}
+
+.header_text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.right_nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.bookmarks,
+.box {
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  margin-top: 12px;
+}
+.icon_bookmark,
+.icon_box {
+  width: 14px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #888888;
+}
+.order {
+  margin-top: 12px;
+}
+
+.order_button {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 13px 18px;
+  width: 220px;
+  height: 44px;
+  background-color: #8ed78f;
+}
+.information {
+  height: 273px;
+
+  padding-top: 38px;
+}
+.top_info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.top_title {
+  width: 197px;
+  height: 71px;
+}
+.title_text {
+  font-size: 14px;
+  line-height: 23px;
+  color: #ee3643;
+}
+.block_phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 45px;
+  border: 3px solid #FFFFFF;
+  display: inline-block;
+}
+
+.icon_phone {
+  width: 19px;
+  height: 19px;
+  fill: #b7bfc8;
+}
+.phone_text {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 30px;
+  color: #ee3643;
+  margin-left: 16px;
+}
+.adress_text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+.enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  width: 121px;
+  height: 45px;
+  text-decoration: none;
+  background-color: white;
+  margin-left: 60px;
+  
+}
+.icon_login {
+  width: 20px;
+  height: 17px;
+  fill: #c5c5c5;
+}
+.login_text {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 6px;
+}
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.registration_text {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  align-items: center;
+  padding: 12px 24px;
+}
+.main_nav {
+  margin: 0 auto;
+  width: 940px;
+  height: 60px;
+  background-color: #32425c;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.main_text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* .product_container{
+  max-width: 940px;
+} */
+.item_group_one {
+  margin-top: 59px;
+  display: flex;
+  justify-content: space-between;
+}
+.bucket_element_yellow {
+  width: 300px;
+  height: 123px;
+  background-color: #ffbf47;
+  position: relative;
+}
+.bucket_text {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  position: absolute;
+  left: 23px;
+  top: 20px;
+}
+.opasity_button {
+  display: inline-block;
+  width: 135px;
+  height: 38px;
+  background-color: #ffd27e;
+  position: absolute;
+  left: 23px;
+  top: 64px;
+}
+.opasity_buttext {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.bucket_icon {
+  display: inline-block;
+  width: 44px;
+  height: 65px;
+  position: absolute;
+  top: 31px;
+  right: 43px;
+}
+.bucket_new {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.bucket_element_blue {
+  width: 300px;
+  height: 123px;
+  background-color: #3bbce3;
+  position: relative;
+}
+.opasity_button_blue {
+  display: inline-block;
+  width: 135px;
+  height: 38px;
+  background-color: #75d0eb;
+  position: absolute;
+  left: 23px;
+  top: 64px;
+}
+.drill_icon {
+  display: inline-block;
+  width: 74.92px;
+  height: 61px;
+  position: absolute;
+  top: 34px;
+  right: 31.08px;
+}
+.bucket_element_purple {
+  width: 300px;
+  height: 123px;
+  background-color: #dc91d8;
+  position: relative;
+}
+.opasity_button_purple {
+  display: inline-block;
+  width: 135px;
+  height: 38px;
+  background-color: #e6b2e4;
+  position: absolute;
+  left: 23px;
+  top: 64px;
+}
+.track_icon {
+  display: inline-block;
+  width: 74.92px;
+  height: 61px;
+  position: absolute;
+  top: 31px;
+  right: 31.08px;
+}
+.item_group_two {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.puncher_element {
+  width: 620px;
+  height: 266px;
+  background: url(./images/puncher.png);
+  position: relative;
+}
+.puncher_title {
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  position: absolute;
+  left: 24px;
+  top: 23px;
+}
+.puncher_text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  position: absolute;
+  left: 24px;
+  top: 64px;
+}
+.puncher_button {
+  width: 192px;
+  height: 38px;
+  background-color: #ee3643;
+  position: absolute;
+  top: 201px;
+  left: 24px;
+}
+.puncher_buttext {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+}
+.sale_element_green {
+  width: 300px;
+  height: 123px;
+  background-color: #8ed78f;
+  position: relative;
+}
+.opasity_button_green {
+  display: inline-block;
+  width: 135px;
+  height: 38px;
+  background-color: #b0e3b0;
+  position: absolute;
+  left: 23px;
+  top: 64px;
+}
+.basket_icon {
+  width: 59px;
+  height: 72px;
+  position: absolute;
+  top: 26px;
+  right: 45px;
+}
+.delivery_element_yellow {
+  width: 300px;
+  height: 123px;
+  background-color: #ffc047;
+  position: relative;
+  margin-top: 20px;
+}
+
+.opasity_button_yellow {
+  display: inline-block;
+  width: 135px;
+  height: 7px;
+  background-color: #ffd37e;
+  position: absolute;
+  left: 22px;
+  top: 63px;
+ 
+}
+.opasity_buttext_yellow {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 56px;
+  left: 58px;
+
+  
+}
+.car_icon{
+  width: 78px;
+  height: 63px;
+  position: absolute;
+  right: 31px;
+  top: 32px;
+}
